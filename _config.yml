@@ -1,12 +1,11 @@
 title: SoloBits
 tagline: 'Share | Learn | Contribute'
 description: >- # this means to ignore newlines until "baseurl:"
-  A site where I share my experiences and my learnings over the years and contribute to the Dev Community.
+  SHARING WHAT I KNOW AND CONTRIBUTING TO THE DEV. COMMUNITY
 baseurl: ""
 twitter_username: ""
 github_username: solobits
 name: SoloBits
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 paginate: 5
 permalink:           pretty
@@ -15,32 +14,3 @@ author:
   name: Nelson John
   url:  http://linkedin.com/in/solobits/
   email: nelson_john@icloud.com
-
-footer-links:
-  dribbble:
-  email:
-  facebook:
-  flickr:
-  github: barryclark/jekyll-now
-  instagram:
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
-
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: "highlight"
-
-exclude:
-  - LICENSE
-  - README.md
