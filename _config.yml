@@ -8,9 +8,17 @@ github_username: solobits
 name: SoloBits
 
 paginate: 5
-permalink:           pretty
+permalink: pretty
 
 author:
   name: Nelson John
   url:  http://linkedin.com/in/solobits/
   email: nelson_john@icloud.com
+
+  # Gems
+plugins:
+  - jekyll-paginate
+
+  # Custom vars
+version:             1.0.0
+google_analytics_id: #UA-XXXX-Y
