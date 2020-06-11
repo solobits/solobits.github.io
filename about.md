@@ -25,7 +25,6 @@ I have recently been trying to share my experience on SoloBits that I think can 
 ## Contact
 
 <section class="contact">
-      <h3 class="contact-title">Contact me</h3>
       <ul>
           <li class="github"><a href="https://github.com/solobits/" target="_blank"><i class="fa fa-github"></i></a></li>       
           <li class="linkedin"><a href="https://www.linkedin.com/in/solobits/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
