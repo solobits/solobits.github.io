@@ -1,51 +1,21 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: SoloBits
-email: nelson_john@icloud.com
+tagline: 'Share | Learn | Contribute'
 description: >- # this means to ignore newlines until "baseurl:"
-  A site where I share my experiences and my learnings over the years contribute to the Dev Community.
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-
-baseurl: "" # the subpath of your site, e.g. /blog
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  A site where I share my experiences and my learnings over the years and contribute to the Dev Community.
+baseurl: ""
 twitter_username: ""
 github_username: solobits
 name: SoloBits
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
-# Build settings
-theme: jekyll-theme-tactile
-plugins:
-  - jekyll-feed
+paginate: 5
+permalink:           pretty
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-# Includes an icon in the footer for each username you enter
+author:
+  name: Nelson John
+  url:  http://linkedin.com/in/solobits/
+  email: nelson_john@icloud.com
+
 footer-links:
   dribbble:
   email:
@@ -61,19 +31,6 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
-permalink: /:title/
-
 # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
@@ -84,19 +41,6 @@ kramdown:
     # Use existing pygments syntax highlighting css
     css_class: "highlight"
 
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
-# Exclude these files from your production _site
 exclude:
-  - Gemfile
-  - Gemfile.lock
   - LICENSE
   - README.md
-  - CNAME
