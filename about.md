@@ -8,26 +8,31 @@ title: About
 </div>
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  FullStack | Mobile App | Flutter | Lumen | Contributer | Learner 
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+The name's John... Nelson John. 😎 Flutter and Lumen Shaken, Not Stirred. (I don't care if it makes no sense 😛)
 
-There are currently two themes built on Poole:
+The Dev community has given a lot and this website is me trying to give back and contribute to the community. 
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+I am passionate about programming. Self taught I started programming at the age of 10 using Visual Basic. Writing readable and maintainable code is what I pride myself on. Mobile App development on Android and iOS is what my main interest is. 
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+I do like messing around a bit in some other languages mainly PHP. PHP is what I started my career on. I still use Lumen by Laravel which is a micro-framework for PHP for building my APIs. I worked on C# for a while building Desktop apps for Windows and Mobile apps using Xamarin but have totally shifted to Flutter now.
+Improve my code, productivity, learn and explore new tools is what I always try to do. 
+I have recently been trying to share my experience on SoloBits that I think can bring value to other developers and the dev community.
 
-## Setup
 
-Some fun facts about the setup of this project include:
+## Contact
 
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
+<section class="contact">
+      <h3 class="contact-title">Contact me</h3>
+      <ul>
+          <li class="github"><a href="https://github.com/solobits/" target="_blank"><i class="fa fa-github"></i></a></li>       
+          <li class="linkedin"><a href="https://www.linkedin.com/in/solobits/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li class="email"><a href="mailto:nelson_john@icloud.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+      </ul>
+</section>
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+Have questions or suggestions? Feel free to drop a message on LinkedIn or an email. 
 
 Thanks for reading!
