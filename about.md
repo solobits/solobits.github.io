@@ -3,6 +3,10 @@ layout: page
 title: About
 ---
 
+<div class="cover-author-image" style="text-align: center">
+<img src="{{site.baseurl}}/public/me.png">
+</div>
+
 <p class="message">
   Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
 </p>
