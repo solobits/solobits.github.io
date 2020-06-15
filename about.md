@@ -25,7 +25,7 @@ I do like messing around a bit in some other languages mainly PHP as that is wha
       <ul>
           <li class="github"><a href="https://github.com/solobits/" target="_blank"><i class="fa fa-github"></i></a></li>       
           <li class="linkedin"><a href="https://www.linkedin.com/in/solobits/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-          <li class="email"><a href="mailto:nelson_john@icloud.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+          <li class="twitter"><a href="https://twitter.com/solobits_nelson" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
       </ul>
 </section>
 
