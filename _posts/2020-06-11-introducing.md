@@ -18,3 +18,12 @@ A few years later I commenced my career as a Freelancer hoping that I’ll soon 
 Most of it is going to be about Flutter, Lumen(PHP), DevOps, Dev Basics and my experiences. I know I cannot, but I will try to give as much as I’ve taken from the amazing Dev community. 🤗
 
 Thanks!
+
+<section class="contact">
+      <ul>
+          <li class="github"><a href="https://github.com/solobits/" target="_blank"><i class="fa fa-github"></i></a></li>       
+          <li class="linkedin"><a href="https://www.linkedin.com/in/solobits/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li class="twitter"><a href="https://twitter.com/solobits_nelson" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li class="medium_platform"><a href="https://medium.com/@solobits_nelson" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+      </ul>
+</section>

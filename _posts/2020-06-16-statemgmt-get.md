@@ -102,3 +102,14 @@ I'll be writing a list of Articles that will cover almost everything that we can
 - Architecture using GET
 
 Hope it helps.
+
+<a href="https://github.com/solobits/get_sm" target="_blank">Source Code</a> 
+
+<section class="contact">
+      <ul>
+          <li class="github"><a href="https://github.com/solobits/" target="_blank"><i class="fa fa-github"></i></a></li>       
+          <li class="linkedin"><a href="https://www.linkedin.com/in/solobits/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+          <li class="twitter"><a href="https://twitter.com/solobits_nelson" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li class="medium_platform"><a href="https://medium.com/@solobits_nelson" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+      </ul>
+</section>
