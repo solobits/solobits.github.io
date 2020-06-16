@@ -70,6 +70,7 @@ class CounterViewmodel extends GetController {
     update();
   }
 }
+{% endhighlight %}
 
 
 Wrap the widget you want to update in GetBuilder
