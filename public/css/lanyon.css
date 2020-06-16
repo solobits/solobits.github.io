@@ -33,7 +33,7 @@
  *
  * Update the foundational and global aspects of the page.
  */
-
+ @import "code_highlight.css";
 /* Prevent scroll on narrow devices */
 html,
 body {
