@@ -7,7 +7,7 @@ The following article assumes you are already aware of State Management Basics. 
 If you want to learn about the basics follow the official Flutter documentation which explains State Management very good: https://flutter.dev/docs/development/data-and-backend/state-mgmt
 
 ### GET, Juiced State Manager
-We do have multiple options to achive this namingly InheritedWidgets, ScopedModel, Provider, Bloc, MobX etc. But we'll be using GET which is not just a simple State Management solution but a Micro-Framework for Flutter. It has quite a lot that we can do with it like Dependency Management, Router, Utils/Helpers and more. 
+We do have multiple options to achieve this namingly InheritedWidgets, ScopedModel, Provider, Bloc, MobX etc. But we'll be using GET which is not just a simple State Management solution but a Micro-Framework for Flutter. It has quite a lot that we can do with it like Dependency Management, Router, Utils/Helpers and more. 
 
 So basically GET is on Steroids. We'll start by talking about how it can help us manage our state.
 
@@ -32,7 +32,7 @@ dev_dependencies:
     sdk: flutter
 
 ## Base Setup
-In you main.dart rename MaterialApp to GetMaterialApp. 
+In your main.dart rename MaterialApp to GetMaterialApp. 
 
 void main() {
   runApp(MyApp());
@@ -53,8 +53,8 @@ class MyApp extends StatelessWidget {
   }
 }
 
-## Create your Viewmodel/Controller
-Our Viewmodel will have our business logic. Create getters and setters for counter variable.
+## Create your ViewModel/Controller
+Our ViewModel will have our business logic. Create getters and setters for the counter variable.
 
 class CounterViewmodel extends GetController {
   int _counter = 0;
@@ -94,7 +94,7 @@ Run your app and Voila!. That's all you need.
 <img src="https://solobits.github.io/gifs/2020_06_19-statemgmt-get.gif"/>
 
 ### Upcoming Articles
-I'll be writing a list of Articles that will conver almost everything that we can do with GET namingly:
+I'll be writing a list of Articles that will cover almost everything that we can do with GET namingly:
 
 - Dependency Management
 - Router
