@@ -17,6 +17,7 @@ We'll start by creating a new Flutter project. We'll use the default counter app
 #### Importing Package
 In pubspec.yaml import GET package. pubspec will then look something like this:
 
+{% highlight js %}
 environment:
   sdk: ">=2.7.0 <3.0.0"
 
@@ -30,10 +31,12 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+{% endhighlight %}
 
 #### Base Setup
 In your main.dart rename MaterialApp to GetMaterialApp. 
 
+{% highlight js %}
 void main() {
   runApp(MyApp());
 }
@@ -52,10 +55,12 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+{% endhighlight %}
 
 #### Create your ViewModel/Controller
 Our ViewModel will have our business logic. Create getters and setters for the counter variable.
 
+{% highlight js %}
 class CounterViewmodel extends GetController {
   int _counter = 0;
 
@@ -69,6 +74,7 @@ class CounterViewmodel extends GetController {
 
 Wrap the widget you want to update in GetBuilder
 
+{% highlight js %}
 GetBuilder<CounterViewmodel>( //It's something like a consumer that we use in Provider
               init: CounterViewmodel(),
               builder: (_) => Text(
@@ -76,9 +82,11 @@ GetBuilder<CounterViewmodel>( //It's something like a consumer that we use in Pr
                 style: Theme.of(context).textTheme.headline4,
               ),
             ),
+            {% endhighlight %}
 
 To trigger an increment we'll do something like this
 
+{% highlight js %}
 floatingActionButton: FloatingActionButton(
         onPressed: () {
           final _viewmodel = Get.find<CounterViewmodel>(); //Just like we use Provider.of for Provider
@@ -88,6 +96,7 @@ floatingActionButton: FloatingActionButton(
         tooltip: 'Increment',
         child: Icon(Icons.add),
       ),
+      {% endhighlight %}
 
 Run your app and Voila!. That's all you need.
 
