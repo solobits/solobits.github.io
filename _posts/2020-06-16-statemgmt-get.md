@@ -14,7 +14,7 @@ So basically GET is on Steroids. We'll start by talking about how it can help us
 ### State Management
 We'll start by creating a new Flutter project. We'll use the default counter app and modify it using GET.
 
-## Importing Package
+#### Importing Package
 In pubspec.yaml import GET package. pubspec will then look something like this:
 
 environment:
@@ -31,7 +31,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-## Base Setup
+#### Base Setup
 In your main.dart rename MaterialApp to GetMaterialApp. 
 
 void main() {
@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-## Create your ViewModel/Controller
+#### Create your ViewModel/Controller
 Our ViewModel will have our business logic. Create getters and setters for the counter variable.
 
 class CounterViewmodel extends GetController {
@@ -91,7 +91,7 @@ floatingActionButton: FloatingActionButton(
 
 Run your app and Voila!. That's all you need.
 
-<img src="https://solobits.github.io/gifs/2020_06_19-statemgmt-get.gif"/>
+<img src="https://solobits.github.io/public/gifs/2020_06_16-statemgmt-get.gif"/>
 
 ### Upcoming Articles
 I'll be writing a list of Articles that will cover almost everything that we can do with GET namingly:
