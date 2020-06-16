@@ -11,7 +11,7 @@ title: About
   FullStack | Mobile App | Flutter | Lumen | Contributer | Learner 
 </p>
 
-The name’s John… Nelson John. 😎 Flutter and Lumen Shaken, Not Stirred. (I don’t care if it makes no sense 😛)
+The name’s John… Nelson John. 😎
 The Dev community has given a lot and this website is me trying to give back and contribute to the community.
 
 I am passionate about programming. Self-taught I started programming at the age of 10 using Visual Basic. Writing readable and maintainable code is what I pride myself on. Mobile App Development on Android and iOS is what my main interest is.
