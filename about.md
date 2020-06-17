@@ -11,10 +11,11 @@ title: About
   FullStack | Mobile App | Flutter | Lumen | Contributer | Learner 
 </p>
 
-The name’s John… Nelson John. 😎
+Code Passionate, Architecture Obsessed, S.O.L.I.D. believer, Contributor, Software Developer working with #flutter and #lumen. 
+
 The Dev community has given a lot and this website is me trying to give back and contribute to the community.
 
-I am passionate about programming. Self-taught I started programming at the age of 10 using Visual Basic. Writing readable and maintainable code is what I pride myself on. Mobile App Development on Android and iOS is what my main interest is.
+Self-taught I started programming at the age of 10 using Visual Basic. Writing readable and maintainable code is what I pride myself on. Mobile App Development on Android and iOS is what my main interest is.
 
 I do like messing around a bit in some other languages mainly PHP as that is what I started my career on. I use Lumen by Laravel which is a micro-framework for PHP for building my APIs. I worked on C# for a while building Desktop apps for Windows and Mobile apps using Xamarin but have shifted to Flutter now. Improving my code, productivity and exploring new tools is what I am obsessed with. I have recently been trying to share my experience @SoloBits that I think can bring value to other developers and the dev community.
 
