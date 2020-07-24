@@ -4,7 +4,6 @@ title: Uniform Text Sizes Across the App in Flutter
 ---
 If you're new to Flutter or a Pro we know how much of the Text Widget we use... Some large in size, some small, some bold and the list goes on. Having uniform text sizes and attributes across the app is very important for the UI/UX. So I just decided to share a small tip for new devs on who can they do it.
 
-### Steps
 We're are simply going to create a Text widget in our project that we can then call across our app.
 
 #### Create a new file called text.dart
@@ -120,7 +119,7 @@ class AppText extends StatelessWidget {
 Now in any file of you project simply call AppText widget. e.g:
 
 {% highlight js %}
- AppText(text: title,
+ cosnt AppText(text: 'Some Text',
          type: TextType.title,
          color: Colors.pink,
          weight: FontWeight.w600,
@@ -129,14 +128,14 @@ Now in any file of you project simply call AppText widget. e.g:
 {% endhighlight %}
 
 
-
+Share with us below on how you have been solving this problem. 🙂
 Hope it helps.
 
 <section class="contact">
       <ul>
           <li class="github"><a href="https://github.com/solobits/" target="_blank"><i class="fa fa-github"></i></a></li>       
           <li class="linkedin"><a href="https://www.linkedin.com/in/solobits/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-          <li class="twitter"><a href="https://twitter.com/solobits_nelson" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li class="twitter"><a href="https://twitter.com/solobits_nelson" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>   
           <li class="medium_platform"><a href="https://medium.com/@solobits_nelson" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
       </ul>
 </section>
